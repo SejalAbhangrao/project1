@@ -31,5 +31,56 @@ namespace project1.Business
             }
         }
 
+        public void UpdateUser(UserModel user, ResponseModel responseModel)
+        {
+
+            UserRepository userRepository = new UserRepository();
+            try
+            {
+                log.Debug("Update called for user id" + user.Id);
+                userRepository.UpdateUser(user, responseModel);
+            }
+            catch (Exception e)
+            {
+                log.Error(e);
+                responseModel.status = ResponseConstants.SYSTEM_ERROR;
+                responseModel.message = "Internal server error.";
+            }
+        }
+
+        public void DeleteUser(UserModel user, ResponseModel responseModel)
+        {
+
+            UserRepository userRepository = new UserRepository();
+            try
+            {
+                log.Debug("Delete called for user id" + user.Id);
+                userRepository.DeleteUser(user, responseModel);
+            }
+            catch (Exception e)
+            {
+                log.Error(e);
+                responseModel.status = ResponseConstants.SYSTEM_ERROR;
+                responseModel.message = "Internal server error.";
+            }
+        }
+
+        public void RetrieveUser(UserModel user, ResponseModel responseModel)
+        {
+
+            UserRepository userRepository = new UserRepository();
+            try
+            {
+                log.Debug("Delete called for user id" + user.Id);
+                userRepository.RetrieveUser(user, responseModel);
+            }
+            catch (Exception e)
+            {
+                log.Error(e);
+                responseModel.status = ResponseConstants.SYSTEM_ERROR;
+                responseModel.message = "Internal server error.";
+            }
+        }
+
     }
 }
