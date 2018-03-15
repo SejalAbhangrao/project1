@@ -1,3 +1,6 @@
+D:\Projects\project1\project1\bin\project1.dll.config
+D:\Projects\project1\project1\bin\project1.dll
+D:\Projects\project1\project1\bin\project1.pdb
 D:\Projects\project1\project1\bin\roslyn\csc.exe
 D:\Projects\project1\project1\bin\roslyn\csc.exe.config
 D:\Projects\project1\project1\bin\roslyn\csc.rsp
@@ -25,6 +28,7 @@ D:\Projects\project1\project1\bin\roslyn\System.IO.Compression.dll
 D:\Projects\project1\project1\bin\roslyn\System.IO.FileSystem.dll
 D:\Projects\project1\project1\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 D:\Projects\project1\project1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\project1\project1\bin\roslyn\System.IO.Pipes.AccessControl.dll
 D:\Projects\project1\project1\bin\roslyn\System.IO.Pipes.dll
 D:\Projects\project1\project1\bin\roslyn\System.Reflection.Metadata.dll
 D:\Projects\project1\project1\bin\roslyn\System.Security.AccessControl.dll
@@ -46,14 +50,17 @@ D:\Projects\project1\project1\bin\roslyn\vbc.exe.config
 D:\Projects\project1\project1\bin\roslyn\vbc.rsp
 D:\Projects\project1\project1\bin\roslyn\VBCSCompiler.exe
 D:\Projects\project1\project1\bin\roslyn\VBCSCompiler.exe.config
-D:\Projects\project1\project1\bin\project1.dll.config
-D:\Projects\project1\project1\bin\project1.dll
-D:\Projects\project1\project1\bin\project1.pdb
+D:\Projects\project1\project1\bin\EntityFramework.dll
+D:\Projects\project1\project1\bin\EntityFramework.SqlServer.dll
+D:\Projects\project1\project1\bin\log4net.dll
 D:\Projects\project1\project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Projects\project1\project1\bin\Newtonsoft.Json.dll
 D:\Projects\project1\project1\bin\System.Net.Http.Formatting.dll
 D:\Projects\project1\project1\bin\System.Web.Http.dll
 D:\Projects\project1\project1\bin\System.Web.Http.WebHost.dll
+D:\Projects\project1\project1\bin\EntityFramework.xml
+D:\Projects\project1\project1\bin\EntityFramework.SqlServer.xml
+D:\Projects\project1\project1\bin\log4net.xml
 D:\Projects\project1\project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Projects\project1\project1\bin\Newtonsoft.Json.xml
 D:\Projects\project1\project1\bin\System.Net.Http.Formatting.xml
@@ -61,5 +68,6 @@ D:\Projects\project1\project1\bin\System.Web.Http.xml
 D:\Projects\project1\project1\bin\System.Web.Http.WebHost.xml
 D:\Projects\project1\project1\obj\Debug\project1.csprojResolveAssemblyReference.cache
 D:\Projects\project1\project1\obj\Debug\project1.csproj.CoreCompileInputs.cache
+D:\Projects\project1\project1\obj\Debug\project1.csproj.CopyComplete
 D:\Projects\project1\project1\obj\Debug\project1.dll
 D:\Projects\project1\project1\obj\Debug\project1.pdb
