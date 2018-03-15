@@ -25,6 +25,6 @@ namespace project1.DatabaseMgmt
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<UserInformation> UserInformations { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }
